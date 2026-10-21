@@ -1,0 +1,16 @@
+# Render.com blueprint: one web service serving API + built client.
+services:
+  - type: web
+    name: krishidirect-ai
+    runtime: node
+    buildCommand: npm ci && npm run build
+    startCommand: node server/index.js
+    envVars:
+      - key: NODE_VERSION
+        value: 22
+      - key: DATA_FILE
+        value: /var/data/db.json
+    disk:
+      name: data
+      mountPath: /var/data
+      sizeGB: 1

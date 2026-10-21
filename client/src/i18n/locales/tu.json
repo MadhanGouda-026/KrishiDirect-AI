@@ -1,0 +1,6 @@
+{
+  "_meta": {
+    "status": "PENDING NATIVE-SPEAKER REVIEW. Tulu strings are intentionally not guessed. Until reviewed translations are added here, Tulu falls back to Kannada (same script), then English. See docs/TRANSLATIONS.md for the review workflow."
+  },
+  "lang": { "tu": "ತುಳು" }
+}

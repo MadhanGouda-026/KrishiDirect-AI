@@ -1,0 +1,239 @@
+{
+  "lang": { "en": "English", "kn": "ಕನ್ನಡ", "hi": "हिन्दी", "tu": "ತುಳು" },
+  "app": { "tagline": "Sell Fresh. Earn Better.", "support": "Connecting farmers directly with buyers for a fairer, greener tomorrow." },
+  "common": {
+    "save": "Save", "cancel": "Cancel", "delete": "Delete", "edit": "Edit", "view": "View", "close": "Close", "back": "Back", "next": "Next",
+    "submit": "Submit", "search": "Search", "clear": "Clear", "loading": "Loading…", "all": "All", "exportCsv": "Export CSV", "send": "Send",
+    "confirm": "Confirm", "optional": "optional", "retry": "Try again", "viewAll": "View all", "filters": "Filters", "clearAll": "Clear all filters",
+    "results": "{{count}} results", "page": "Page {{n}} of {{pages}}", "prev": "Previous", "more": "More", "breadcrumb": "Breadcrumb",
+    "pagination": "Pagination", "skip": "Skip to content", "noData": "No data for the current selection."
+  },
+  "nav": {
+    "home": "Home", "marketplace": "Marketplace", "sell": "Sell Harvest", "prices": "Price Insights", "farmers": "Farmers", "buyers": "Buyers",
+    "search": "Search", "notifications": "Notifications", "theme": "Switch light/dark theme", "language": "Language", "menu": "Menu", "more": "More",
+    "wishlist": "Saved Crops", "compare": "Compare", "offers": "Offers", "orders": "Orders", "messages": "Messages", "markets": "Nearby Markets",
+    "resources": "Farmer Resources", "assistant": "Smart Farming Assistant", "analytics": "Analytics", "demoTools": "Demo Mode & Reset",
+    "about": "About Us", "help": "Help & FAQ", "contact": "Contact", "privacy": "Privacy Policy", "terms": "Terms of Service"
+  },
+  "demo": {
+    "mode": "Demo Mode", "banner": "Demo mode: sample data, simulated people, no real payments or real market prices.", "identity": "Demo identity",
+    "identityNote": "Switch between clearly labelled sample farmers and buyers. No login is required in this demo.", "farmer": "Demo farmer", "buyer": "Demo buyer",
+    "farmers": "Sample farmers", "buyers": "Sample buyers", "current": "Current", "needBuyer": "This action needs a buyer identity. You are currently a farmer.",
+    "needFarmer": "This page is for farmers. You are currently a buyer.", "switchTo": "Switch to {{name}}", "noPayment": "Demo Order — no real payment is processed and no money changes hands.",
+    "orderWord": "Demo Order", "title": "Demo Mode & Reset Demo Data", "reset": "Reset demo data", "resetConfirm": "This restores all sample data and removes any listings, offers and orders you created. Continue?",
+    "resetBody": "Restore the original sample dataset (listings, offers, orders, messages, notifications and sample price series).", "resetDone": "Demo data restored.",
+    "status": "Configuration status", "live": "Live market data", "ai": "Assistant mode", "recommender": "Recommendation engine", "seeded": "Data seeded",
+    "limits": "Known limitations of this demo",
+    "l1": "Prices, weather and market figures are sample values, not real market data.",
+    "l2": "Identities are demo switches, not real authentication.",
+    "l3": "No payments, delivery booking, or SMS/e-mail are connected.",
+    "l4": "“Verified” appears only as ‘Demo verified’; no real verification is performed.",
+    "l5": "Tulu and some Kannada/Hindi long-form text are pending native-speaker review and fall back to Kannada/English."
+  },
+  "hero": {
+    "badge": "Direct farmer-to-buyer marketplace · Karnataka", "title1": "Sell Fresh.", "title2": "Earn Better.",
+    "sub": "List your harvest, receive offers straight from retailers, restaurants and wholesalers, and agree a fair price without unnecessary middlemen.",
+    "browse": "Browse Crops", "sell": "Sell Your Harvest", "searchPh": "Search crops — tomato, ಅಡಿಕೆ, coconut…", "quick": "Quick search",
+    "fair": "Fair Prices", "direct": "Direct Buyers", "local": "Local Markets", "sustain": "Sustainable Farming", "panel": "Reference prices",
+    "panelNote": "Sample values for illustration. Not live, official or real-time market prices.", "alt": "Illustration of a smiling farmer holding a basket of fresh vegetables in a green field with coconut palms"
+  },
+  "home": {
+    "categories": "Shop by category", "fresh": "Freshly listed", "how": "How it works", "h1t": "List your harvest", "h1d": "Add crop, quantity, price and photos in a few simple steps — in your language.",
+    "h2t": "Receive offers", "h2d": "Buyers send offers or enquiries. Accept, reject or counter with your price.", "h3t": "Agree and coordinate", "h3d": "Confirm the order, prepare, hand over by pickup or delivery, and track every step.",
+    "who": "Built for everyone in the chain", "who_farmers": "Small & marginal farmers", "who_growers": "Vegetable & fruit growers", "who_retailers": "Local retailers", "who_wholesalers": "Wholesale traders",
+    "who_restaurants": "Restaurants & hotels", "who_coops": "Cooperatives", "who_fpos": "Farmer Producer Organisations", "who_institutions": "Institutional buyers",
+    "whoNote": "Karnataka first, designed to expand to other Indian states."
+  },
+  "cat": { "vegetables": "Vegetables", "fruits": "Fruits", "grains": "Grains & cereals", "pulses": "Pulses", "spices": "Spices", "arecanut": "Arecanut", "coconut": "Coconut", "flowers": "Flowers", "leafy": "Leafy greens", "oilseeds": "Oilseeds", "other": "Other produce" },
+  "unit": { "kg": "kg", "quintal": "quintal", "tonne": "tonne", "piece": "piece", "dozen": "dozen" },
+  "grade": { "A": "Grade A", "B": "Grade B", "C": "Grade C", "ungraded": "Ungraded" },
+  "organic": { "organic": "Organic (declared)", "conventional": "Conventional" },
+  "fulfil": { "pickup": "Pickup", "delivery": "Delivery" },
+  "kind": { "individual": "Individual farmer", "fpo": "Farmer Producer Organisation", "retailer": "Retailer", "hotel": "Hotel / restaurant", "wholesaler": "Wholesaler", "cooperative": "Cooperative" },
+  "status": {
+    "active": "Active", "draft": "Draft", "paused": "Paused", "sold": "Sold", "pending": "Pending", "accepted": "Accepted", "rejected": "Rejected", "countered": "Countered",
+    "withdrawn": "Withdrawn", "expired": "Expired", "placed": "Placed", "confirmed": "Confirmed", "prepared": "Prepared", "dispatched": "Dispatched",
+    "ready_for_pickup": "Ready for pickup", "received": "Received", "cancelled": "Cancelled"
+  },
+  "market": {
+    "sub": "Search, filter and compare produce listed directly by farmers.", "category": "Category", "district": "District", "minPrice": "Min price (₹)", "maxPrice": "Max price (₹)",
+    "priceNote": "Price filters use ₹ per kg (or per piece for counted produce).", "minQty": "Minimum quantity available (kg/pieces)", "maxMinOrder": "Max. minimum order (kg/pieces)",
+    "grade": "Quality grade", "harvestAfter": "Harvested on/after", "organic": "Organic / conventional", "fulfilment": "Pickup / delivery", "verified": "Demo-verified sellers only",
+    "sort": "Sort by", "sort_newest": "Newest", "sort_priceAsc": "Price: low to high", "sort_priceDesc": "Price: high to low", "sort_quantity": "Quantity available", "sort_popularity": "Popularity",
+    "recent": "Recent searches", "emptyTitle": "No crops match these filters", "emptyBody": "Try removing a filter or searching a different crop name (English or Kannada)."
+  },
+  "listing": {
+    "save": "Save crop", "unsave": "Remove from saved", "compare": "Compare", "enquire": "Enquire", "viewDetails": "View details", "sendOffer": "Send offer", "minOrder": "Min. order",
+    "listed": "Listed", "harvest": "Harvest date", "available": "Available", "seller": "Seller", "pickupLocation": "Pickup location", "contact": "Contact", "contactPrivate": "Private — use the enquiry form (no phone numbers are shown publicly).",
+    "organicNote": "Organic status is declared by the farmer and has not been independently verified in this demo.", "demoVerified": "Demo verified", "demoVerifiedNote": "Sample status for demonstration only; no real verification was performed.",
+    "noDescription": "No description provided.", "until": "available until", "yours": "This is your listing.", "unavailable": "This listing is not currently available.", "quantity": "Quantity",
+    "estSubtotal": "Estimated subtotal", "priceContext": "Price context", "refPrice": "Sample reference price", "sampleRange": "Sample range", "similar": "Similar crops", "photo": "Photo",
+    "crop": "Crop", "price": "Price", "grade": "Grade"
+  },
+  "offer": {
+    "title": "Send offer", "listed": "Listed price", "quantity": "Requested quantity", "price": "Your price", "note": "Note to farmer", "subtotal": "Subtotal", "submit": "Submit offer", "sent": "Offer sent to the farmer.",
+    "pageTitle": "Offers & Negotiations", "ttl": "Open offers expire automatically after 72 hours without a response.", "open": "Open", "closed": "Closed", "none": "No offers yet",
+    "noneBody": "Offers you send or receive appear here with their full negotiation history.", "expires": "Expires", "history": "History", "system": "System",
+    "a_accept": "Accept", "a_acceptCounter": "Accept counteroffer", "a_reject": "Reject", "a_counter": "Make counteroffer", "a_withdraw": "Withdraw",
+    "confirm_accept": "Accepting creates a Demo Order for this quantity and price.", "confirm_reject": "This offer will be rejected and cannot be reopened.",
+    "acceptedOrder": "Accepted. Demo Order {{ref}} created.", "updated": "Offer updated.", "sendCounter": "Send counteroffer", "waitingBuyer": "Waiting for buyer",
+    "h_offer": "Offer", "h_counter": "Counteroffer", "h_accept": "Accepted", "h_reject": "Rejected", "h_withdraw": "Withdrawn", "h_expire": "Expired"
+  },
+  "order": {
+    "title": "Orders & Transactions", "open": "In progress", "closed": "Completed / closed", "none": "No orders here", "noneBody": "When you place or receive a Demo Order it appears here with its full timeline.",
+    "buyer": "Buyer", "method": "Pickup or delivery", "transport": "Transport estimate", "transportNote": "≈ {{km}} km straight-line between district centres, ≈ {{road}} km by road (approximation)",
+    "noTransport": "Transport estimate unavailable.", "place": "Place Demo Order", "placed": "Demo Order {{ref}} placed.", "timeline": "Order timeline", "updated": "Order updated.",
+    "a_confirm": "Confirm order", "a_reject": "Reject order", "a_prepare": "Mark prepared", "a_dispatch": "Mark dispatched", "a_ready": "Mark ready for pickup", "a_receive": "Mark received", "a_cancel": "Cancel order",
+    "confirmBody": "Order {{ref}} will change status and stock will be restored where applicable."
+  },
+  "dash": {
+    "farmerTitle": "Farmer Dashboard", "buyerTitle": "Buyer Dashboard", "addCrop": "Add crop", "sampleNote": "All figures are calculated from the demo dataset (sample data, not real platform activity).",
+    "activeListings": "Active listings", "available": "Available produce", "enquiries": "Enquiries", "unread": "{{n}} unread", "pendingOffers": "Pending offers", "acceptedOffers": "Accepted offers", "orders": "Orders",
+    "offersByStatus": "Offers by status", "ordersByStatus": "Orders by status", "myListings": "My listings", "noListings": "You have no listings yet", "noListingsBody": "Create your first listing to start receiving offers.",
+    "views": "Views", "offers": "Offers", "status": "Status", "actions": "Actions", "recentOffers": "Recent offer activity", "recentListings": "Recent listing activity", "best": "Best-performing listings",
+    "bestNeed": "Shown once you have at least 3 listings.", "sentOffers": "Sent offers", "pendingN": "{{n}} pending", "counters": "Counteroffers", "prefCrops": "Preferred crops", "prefDistricts": "Preferred districts",
+    "savePrefs": "Save preferences", "prefsSaved": "Preferences saved.", "saved": "Saved crops", "recentSearches": "Recent searches", "noSearches": "Your recent searches will appear here.", "tracking": "Order tracking",
+    "activity": "Recent activity", "noActivity": "No activity yet."
+  },
+  "rec": {
+    "title": "Match me with listings", "explain": "Transparent rule-based matching. No machine learning or external AI is used.", "quantity": "Quantity needed", "budget": "Budget (₹ per kg / piece)", "run": "Find matches",
+    "results": "Recommended listings", "method": "Scored by simple rules; reasons are shown for every result.", "none": "No matching listings found", "score": "Score",
+    "r_crop": "Matches your crop preference", "r_district": "Located in your preferred district", "r_nearDistrict": "Within about 150 km of a preferred district", "r_quantity": "Quantity meets your requirement",
+    "r_minOrder": "Minimum order fits your quantity", "r_budget": "Within your selected budget", "r_fulfilment": "Offers your preferred pickup/delivery",
+    "m_crop": "Different crop than preferred", "m_district": "Outside preferred districts", "m_quantity": "Less quantity than required", "m_minOrder": "Minimum order above your quantity", "m_budget": "Above your budget", "m_fulfilment": "Preferred pickup/delivery not offered"
+  },
+  "sell": {
+    "title": "Sell Your Harvest", "editTitle": "Edit Crop Listing", "sub": "Four short steps. You can save a draft at any time.", "requiredNote": "* required", "s1": "Crop", "s2": "Quantity & price", "s3": "Location & delivery", "s4": "Photos & contact",
+    "cropName": "Crop name", "cropHint": "e.g. Tomato (hybrid), Arecanut (chali), Coconut", "category": "Category", "grade": "Quality grade", "organic": "Organic or conventional", "description": "Description", "descHint": "Describe freshness, size and handling. Do not include phone numbers.",
+    "genDesc": "Draft description with demo assistant", "price": "Price", "priceUnit": "Price per", "quantity": "Available quantity", "quantityUnit": "Quantity unit", "minOrder": "Minimum order quantity", "harvestDate": "Harvest date",
+    "checkPrices": "Check sample reference prices before you decide", "district": "District", "village": "Village or market area", "fulfilment": "Pickup or delivery", "availableUntil": "Listing available until", "availableHint": "Optional. You will be notified when it is close.",
+    "photos": "Photos", "photoHint": "Up to {{max}} images. JPG, PNG or WebP. Large photos are resized automatically.", "upload": "Upload photos", "imageUrl": "Image URL", "addUrl": "Add URL", "contactPref": "How buyers may reach you", "contactHint": "Your phone number is never shown publicly.",
+    "cp_both": "Offers and enquiries", "cp_enquiry": "Enquiries only", "cp_offer": "Offers only", "saveDraft": "Save draft", "draftSaved": "Draft saved.", "draftOnly": "Drafts can only be saved for unpublished listings", "publish": "Publish listing", "published": "Listing published.",
+    "manage": "Manage listing", "pause": "Pause", "resume": "Resume", "markSold": "Mark as sold", "statusChanged": "Listing status updated.", "deleteTitle": "Delete listing?", "deleteBody": "This permanently removes the listing and expires its open offers.", "deleted": "Listing deleted."
+  },
+  "prices": {
+    "title": "Price Intelligence", "demoLabel": "Demo Data — Not Live Market Prices", "demoShort": "Demo data", "demoNote": "Values are generated sample series for illustration. They are not live, official or real-time prices.",
+    "cards": "Crop reference prices (sample)", "crop": "Crop", "market": "Market", "allMarkets": "All sample markets", "view": "View", "daily": "Daily", "weekly": "Weekly", "monthly": "Monthly", "range": "Period", "lastDays": "Last {{n}} days",
+    "highest": "Highest in selection", "lowest": "Lowest in selection", "suggested": "Sample middle range (14 days)", "sampleOnly": "reference only", "trend": "Price trend", "marketCompare": "Market comparison", "latestSample": "Latest sample value per market",
+    "askCompare": "Seller asking prices vs sample reference", "askNote": "Asking prices of active listings on this platform (per kg/piece).", "noAsks": "No active listings for this crop.", "refAvg": "Sample avg", "supplyDemand": "Supply & demand indicators",
+    "sd_listings": "Active listings", "sd_qty": "Quantity listed", "sd_offers": "Open offers", "sd_note": "Based only on activity in this demo; not a market-wide measure.", "factors": "What influences prices",
+    "f_season": "Season", "f_season_d": "Harvest peaks usually push prices down; off-season supply can raise them.", "f_quality": "Quality & grade", "f_quality_d": "Size, freshness and grading affect what buyers pay.",
+    "f_supply": "Supply", "f_supply_d": "More produce arriving at markets generally lowers prices.", "f_demand": "Demand", "f_demand_d": "Retail, hotel and processing demand varies by day and region.", "f_transport": "Transport", "f_transport_d": "Distance and handling costs change the delivered price.",
+    "f_festival": "Festivals & weather", "f_festival_d": "Local events and rainfall can shift demand and supply quickly.", "sourceTitle": "Data source & units", "source": "Source", "units": "Units", "updated": "Last updated", "provider": "Provider", "askAssistant": "Ask the assistant to explain a price difference"
+  },
+  "compare": { "title": "Compare Crops", "max": "You can compare up to 4 listings.", "open": "Compare ({{count}})", "empty": "Nothing to compare yet", "emptyBody": "Use the Compare button on up to four listings.", "note": "The lowest listed price is highlighted. Cheapest does not mean best quality — check grade and harvest date.", "lowest": "Lowest listed price" },
+  "wish": { "title": "Saved Crops", "empty": "No saved crops yet", "emptyBody": "Tap the heart on any listing to save it here.", "recent": "Recently viewed", "noRecent": "Crops you view will appear here." },
+  "msg": { "title": "Messages & Enquiries", "privacy": "Enquiries are saved conversations — not live chat. Private contact details are never shown.", "none": "No enquiries yet", "noneBody": "Open a listing and choose Enquire to ask the farmer a question.", "select": "Select a conversation.", "write": "Write a message", "sent": "Enquiry sent.", "notRealtime": "Messages are saved and delivered when the other person opens the app (not real-time)." },
+  "notif": {
+    "markAll": "Mark all as read", "markRead": "Mark as read", "empty": "No notifications", "emptyBody": "Activity on your listings, offers and orders will appear here.",
+    "offerNew": "New offer from {{buyer}} on {{crop}}", "offerCountered": "Counteroffer of ₹{{price}} on {{crop}}", "offerAccepted": "Offer accepted for {{crop}} — Demo Order {{ref}}", "offerRejected": "Offer rejected for {{crop}}",
+    "offerWithdrawn": "{{buyer}} withdrew their offer on {{crop}}", "orderNew": "New Demo Order {{ref}} from {{buyer}}", "orderStatus": "Order {{ref}}: $t(status.{{status}})", "listingPublished": "Your listing {{crop}} is now live",
+    "listingEnding": "{{crop}} listing ends on {{date}}", "enquiryNew": "New enquiry from {{buyer}} about {{crop}}", "enquiryReply": "{{from}} replied about {{crop}}"
+  },
+  "markets": {
+    "title": "Nearby Markets & Delivery", "note": "These cards summarise activity by district in this demo. They are not official market locations. Distances are straight-line approximations between district centres.", "calc": "Transport estimate calculator",
+    "from": "From district", "to": "To district", "assump": "Assumptions: ₹{{rate}}/km, minimum ₹{{min}}, road distance ≈ {{factor}} × straight-line. Configurable; not a quote.", "here": "Your district", "listings": "{{n}} active listings", "buyers": "{{n}} sample buyers", "noCrops": "No active listings", "filter": "Browse this district"
+  },
+  "res": {
+    "title": "Farmer Resources", "sub": "Practical, general guidance for preparing and selling produce.", "grading": "Grading & sorting", "grading_d": "Sort by size and freshness, remove damaged pieces and describe grades honestly.",
+    "packing": "Packing & handling", "packing_d": "Use clean crates or bags, avoid overfilling, and keep produce shaded before pickup.", "photos": "Taking good photos", "photos_d": "Use daylight, a plain background and show both a close-up and the whole lot.",
+    "pricing": "Setting a fair ask", "pricing_d": "Compare sample reference prices, your costs, quality and distance to the buyer, then leave room to negotiate.", "fpo": "Selling together", "fpo_d": "Farmer Producer Organisations can aggregate lots to meet bulk buyers' needs.",
+    "safety": "Safe dealing", "safety_d": "Agree quantity, price, pickup place and payment terms in writing. This demo does not process payments.", "disclaimer": "General information only. It is not agronomic, legal or financial advice."
+  },
+  "assistant": {
+    "sub": "Draft listing text, tags, checklists and buyer questions.", "open": "Open assistant", "notice": "Demo assistant: answers come from templates, rules and sample data unless an AI service is configured on the server. It never guarantees yields, profits, disease diagnoses or future prices.",
+    "run": "Generate", "rulesLabel": "Rule-based match — not AI", "noBuyers": "No sample buyers have saved this crop as a preference.", "disc": "Guidance only. No guarantees about yield, profit, disease, or future prices.",
+    "t_description": "Listing description", "t_tags": "Listing tags", "t_priceExplain": "Explain price differences", "t_checklist": "Listing checklist", "t_buyerQuestions": "Questions for buyers", "t_trends": "Marketplace trends", "t_buyers": "Matching buyers"
+  },
+  "analytics": {
+    "title": "Analytics", "sub": "Charts respond to the district and category filters and use the current demo dataset.", "byCategory": "Active listings by category", "byDistrict": "Active listings by district", "priceDist": "Price distribution", "priceDistNote": "Listings per ₹ per kg/piece band",
+    "qtyByCat": "Quantity listed by category", "activity": "Listing activity (last 14 days)", "exp_listings": "Listings CSV", "exp_offers": "Offers CSV", "exp_orders": "Orders CSV"
+  },
+  "weather": { "title": "Weather", "sampleLabel": "Sample Weather — Not Live", "note": "Illustrative values only. Connect a weather provider on the server for real forecasts.", "humidity": "Humidity" },
+  "footer": {
+    "mission": "A demo platform exploring fairer, direct market access for small and marginal farmers.", "platform": "Platform", "company": "Company", "contact": "Contact", "placeholder": "placeholder", "languages": "Languages",
+    "disclaimer": "KrishiDirect AI is a demonstration project. Listings, prices, people, weather and activity may be simulated sample data. No real payments or verification are performed."
+  },
+  "time": { "now": "just now", "minutes": "{{n}} min ago", "hours": "{{n}} h ago", "days": "{{n}} d ago" },
+  "val": {
+    "required": "This field is required.", "tooShort": "Too short.", "tooLong": "Too long.", "positive": "Enter a number greater than 0.", "tooLarge": "That number is too large.", "invalid": "Please enter a valid value.",
+    "unitMismatch": "Use a unit of the same kind (weight or count) as the price unit.", "minOrderTooHigh": "Minimum order cannot exceed the available quantity.", "dateInvalid": "Enter a valid date.", "dateFuture": "Harvest date cannot be in the future.",
+    "dateOld": "Harvest date is more than a year ago.", "pickOne": "Choose at least one option.", "imageInvalid": "Use a JPG, PNG or WebP image (or a valid https link).", "imageTooLarge": "Image is too large. Choose a smaller image.", "tooManyImages": "You can add up to 3 images.",
+    "belowMinOrder": "Below the minimum order quantity.", "exceedsStock": "More than the available quantity.", "methodUnavailable": "This option is not offered for this listing."
+  },
+  "err": {
+    "validation": "Please fix the highlighted fields.", "network": "Cannot reach the server. Check your connection and try again.", "serverError": "Something went wrong. Please try again.", "forbidden": "You are not allowed to do that.", "notFound": "That item was not found.",
+    "badState": "That action is not possible in the current status.", "exceedsStock": "Requested quantity is no longer available.", "hasOpenOrders": "This listing has open orders and cannot be deleted yet.", "duplicateOffer": "You already have an open offer on this listing.",
+    "offersDisabled": "This farmer accepts enquiries only.", "listingGone": "The listing is no longer available.", "farmerOnly": "Only farmers can do this.", "buyerOnly": "Only buyers can do this.", "rateLimited": "Too many requests. Please wait a few minutes.",
+    "unknownUser": "Unknown demo identity.", "imageTooLarge": "Image is too large.", "boundaryTitle": "Something went wrong", "boundaryBody": "The page hit an unexpected error. Please go back to the home page.", "404title": "Page not found", "404body": "This path does not lead to a field we know. Try the marketplace."
+  },
+  "legal": {
+    "updated": "Last updated: 21 October 2026", "version": "Version 1.0 (demo)", "draft": "This document describes the behaviour of this demonstration build. It is a template and has not been reviewed by a lawyer; have it reviewed before any public or commercial launch.",
+    "toc": "Contents", "contact": "Questions about this document? Reach us via the"
+  },
+  "about": {
+    "title": "About KrishiDirect AI", "problemH": "The problem", "problem": "Small and marginal farmers often sell through several layers of intermediaries, with little visibility of prices elsewhere and limited bargaining power. Perishable produce makes this worse: farmers must sell fast, and buyers are hard to reach.",
+    "problem2": "Buyers — retailers, hotels, wholesalers and cooperatives — likewise struggle to find fresh produce with clear quantity, grade and harvest information.", "missionH": "Our mission", "mission": "Make direct market access simple: let farmers list produce in their own language, see fair reference prices, receive offers and coordinate orders — with transparency about what is real and what is sample data.", "ps": "Direct Market-Access Platform for Marginal Farmers",
+    "howH": "What the platform offers", "f_a": "Direct listings", "f_a_d": "Farmers list crops with quantity, grade, harvest date and location.", "f_b": "Offers & negotiation", "f_b_d": "Buyers propose prices; farmers accept, reject or counter with a full history.",
+    "f_c": "Demo order workflow", "f_c_d": "From confirmation to preparation, pickup/delivery and receipt, with timelines.", "f_d": "Price intelligence", "f_d_d": "Reference price trends and comparisons, clearly labelled when they are sample data.",
+    "f_e": "Four languages", "f_e_d": "English, Kannada, Hindi and Tulu (Tulu pending community review).", "f_f": "Transparent matching", "f_f_d": "Rule-based buyer–listing matches that explain why each result is suggested.",
+    "valuesH": "Our principles", "v1": "Farmer first", "v1_d": "Simple flows, local languages and mobile-friendly design for real farming contexts.", "v2": "Honest data", "v2_d": "We never present sample prices, weather or verification as real. Every demo section is labelled.",
+    "v3": "Privacy by design", "v3_d": "No public phone numbers, minimal data, and clear control over what is shared.", "v4": "Fair dealing", "v4_d": "Highlight the lowest price without implying it is the best, and keep negotiations visible to both parties.",
+    "honestH": "What this demo is — and is not", "h1": "It is a working end-to-end prototype with persisted sample data.", "h2": "It is not connected to live market data, payment providers, logistics partners or identity verification.", "h3": "Sample farmers, buyers and organisations are fictional.", "h4": "Listing locations are district-level examples, not verified places.",
+    "whoH": "Get involved", "who": "We welcome feedback from farmers, FPOs, buyers and agri-tech practitioners — especially native speakers who can review the Kannada, Hindi and Tulu translations."
+  },
+  "contact": { "title": "Contact Us", "name": "Your name", "email": "E-mail", "message": "Message", "sent": "Message received. Thank you!", "sentBody": "In this demo your message is stored with the demo data and no one is notified.", "privacy": "We use your details only to respond. See our", "details": "Contact details", "hours": "Contact details above are placeholders for the demonstration." },
+  "privacy": {
+    "sections": [
+      { "h": "Overview", "p": ["KrishiDirect AI (“we”, “the platform”) is a demonstration marketplace that connects farmers and buyers. This policy explains what information the demo handles and how it is used.", "We aim to follow data-minimisation principles consistent with India’s Digital Personal Data Protection Act, 2023. This policy is not legal advice."] },
+      { "h": "Information we handle", "p": ["Listing information you enter (crop, quantity, price, district, village, description, photos).", "Demo activity: offers, counteroffers, orders, enquiry messages and notifications created while you use the app.", "Contact-form submissions (name, e-mail, message).", "Preferences stored in your browser (language, theme, saved crops, comparison list, recent searches, selected demo identity)."] },
+      { "h": "What we do not collect", "p": ["We do not collect real payment details, government identity numbers, precise GPS location or contact-book data.", "Phone numbers and e-mail addresses of farmers and buyers are never displayed publicly. Communication happens through in-app enquiries."] },
+      { "h": "How information is used", "p": ["To show listings, run offers and demo orders, send in-app notifications, and respond to contact messages.", "We do not sell personal information and do not use it for advertising."] },
+      { "h": "Cookies, storage and third parties", "p": ["The app uses your browser’s local storage for preferences. It does not use advertising or analytics cookies.", "Fonts are loaded from Google Fonts, which means your browser contacts Google when pages load. You may self-host fonts in your own deployment."] },
+      { "h": "Demo data and retention", "p": ["Data in this demo is stored on the server in a simple file and can be reset at any time from Demo Mode. Do not enter real personal or sensitive information.", "Contact messages are retained until the demo data is reset or deleted by the operator."] },
+      { "h": "Your choices and rights", "p": ["You can clear saved preferences by clearing your browser’s site data, delete your own listings, and ask us to delete a contact message.", "Subject to applicable law, you may request access, correction or erasure of personal data we hold about you."] },
+      { "h": "Children", "p": ["The platform is intended for adults engaged in agriculture and trade and is not directed at children."] },
+      { "h": "Security", "p": ["We use reasonable safeguards such as input validation and ownership checks. The demo uses sample identities rather than real authentication, so it must not be used for confidential data."] },
+      { "h": "Changes and contact", "p": ["We may update this policy as the platform evolves and will change the date above. Please use the contact page for privacy questions."] }
+    ]
+  },
+  "terms": {
+    "sections": [
+      { "h": "Acceptance", "p": ["By using KrishiDirect AI you agree to these terms. If you do not agree, please do not use the platform."] },
+      { "h": "Nature of the service", "p": ["KrishiDirect AI is a demonstration platform that lets users create sample listings, send offers and place Demo Orders. It is not a licensed trading venue, broker, commission agent or payment provider.", "Unless the operator states otherwise, all people, organisations, prices and activity shown are simulated."] },
+      { "h": "No payments, no guarantees", "p": ["No real payment is processed. A Demo Order or accepted offer is a simulated record and does not create a legally binding sale in this demo.", "If the platform is later used for real trade, buyers and sellers remain responsible for agreeing payment, delivery and quality terms directly."] },
+      { "h": "Your responsibilities", "p": ["Provide accurate information about produce, quantity, grade, harvest date and organic claims. Organic status is a declaration by the seller and is not verified by the platform.", "Do not post unlawful, misleading or harmful content, or content that includes personal contact details of others.", "Do not attempt to access other users’ data, disrupt the service or misuse automated tools."] },
+      { "h": "Prices, weather and recommendations", "p": ["Price, weather and market information is sample data unless a section explicitly says otherwise. It is for illustration, not financial or agronomic advice.", "Recommendations use transparent rules and do not guarantee a good match, quality or profit. The assistant never guarantees yields, profits, disease diagnoses or future prices."] },
+      { "h": "Content and intellectual property", "p": ["You keep ownership of content you submit and give the platform permission to display it for the purpose of operating the service.", "The platform’s design, code and branding remain the property of their owners."] },
+      { "h": "Suspension", "p": ["We may remove listings or restrict access that breach these terms or harm other users."] },
+      { "h": "Disclaimers and liability", "p": ["The service is provided “as is” without warranties of any kind. To the extent permitted by law we are not liable for losses arising from reliance on sample data or from dealings between users."] },
+      { "h": "Governing law", "p": ["These terms are intended to be governed by the laws of India. Disputes would be subject to the courts at the operator’s registered location, to be specified before any commercial launch."] },
+      { "h": "Changes and contact", "p": ["We may update these terms and will change the date above when we do. Please use the contact page with any questions."] }
+    ]
+  },
+  "help": {
+    "title": "Help & FAQ", "still": "Still need help?", "g_start": "Getting started", "g_selling": "Selling", "g_buying": "Buying", "g_orders": "Orders & offers", "g_data": "Data & privacy",
+    "start": [
+      { "q": "What is demo mode?", "a": "The app runs with sample farmers, buyers, listings and prices. Use the identity menu (top right) to switch between a demo farmer and a demo buyer." },
+      { "q": "How do I change the language?", "a": "Use the language selector in the top bar. Your choice is remembered. Tulu text is pending review and falls back to Kannada or English." }
+    ],
+    "selling": [
+      { "q": "How do I list my harvest?", "a": "Switch to a demo farmer, choose Sell Harvest and complete the four steps. You can save a draft or publish immediately." },
+      { "q": "Can I pause or remove a listing?", "a": "Yes. From your Farmer Dashboard you can pause, resume, mark as sold, edit or delete a listing. Listings with open orders cannot be deleted." },
+      { "q": "Are my phone number and address shown?", "a": "No. Buyers contact you through in-app enquiries or offers. Only district and village/market area are shown." }
+    ],
+    "buying": [
+      { "q": "How do I make an offer?", "a": "Open a listing, choose Send offer, enter quantity and your price. The farmer can accept, reject or counter." },
+      { "q": "What are the minimum order and stock checks?", "a": "Your quantity must be at least the minimum order and no more than the available stock. These checks run in your browser and again on the server." }
+    ],
+    "orders": [
+      { "q": "Is real money involved?", "a": "No. Orders are Demo Orders and no payment is processed." },
+      { "q": "When can an order be cancelled?", "a": "A buyer may cancel before the farmer has started preparing it. A farmer may reject a newly placed order. Stock is restored." },
+      { "q": "How long do offers last?", "a": "Open offers expire after 72 hours without a response." }
+    ],
+    "data": [
+      { "q": "Are the prices real?", "a": "No. Price Insights uses generated sample data and is labelled “Demo Data — Not Live Market Prices”." },
+      { "q": "How do I reset everything?", "a": "Open Demo Mode & Reset from the More menu and choose Reset demo data." }
+    ]
+  }
+}
