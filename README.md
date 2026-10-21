@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # KrishiDirect AI — *Sell Fresh. Earn Better.*
 
 A full-stack demo marketplace for **PS 1.2 — Direct Market-Access Platform for Marginal Farmers** (Karnataka focus).
@@ -77,3 +78,6 @@ See `.env.example` for all variables.
 * JSON-file storage is single-process and not meant for concurrent production load.
 * Legal pages (About, Privacy, Terms) are professional templates describing this demo build; have counsel review before launch.
 * Verified badges appear only as "Demo verified"; organic status is farmer-declared.
+=======
+# KrishiDirect-AI
+>>>>>>> 4a1b080ab527987eeca1ab7d8c38c4a20000ed9d
